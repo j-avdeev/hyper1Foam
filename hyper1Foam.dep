@@ -192,9 +192,14 @@ hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/MatrixIO.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/RectangularMatrixI.H
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SquareMatrix.H
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SquareMatrixI.H
+hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SymmetricSquareMatrix.H
+hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SymmetricSquareMatrixI.H
+hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SymmetricSquareMatrix.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/DiagonalMatrix.H
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/DiagonalMatrix.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalarMatricesTemplates.C
+hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListOps.H
+hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListOpsTemplates.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dimensionedType.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/instantList.H
@@ -296,8 +301,6 @@ hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrimitivePatchLocalPoin
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrimitivePatchMeshData.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrimitivePatchMeshEdges.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrimitivePatchPointAddressing.C
-hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListOps.H
-hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListOpsTemplates.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrimitivePatchProjectPoints.C
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/bandCompression.H
 hyper1Foam.dep: $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrimitivePatchCheck.C
